@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +11,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Green; 
+            
             Random r = new Random();
             int[] ints = new int[10];
             int sum = 0;
